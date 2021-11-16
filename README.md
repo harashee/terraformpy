@@ -12,6 +12,8 @@ tf_client.init(tf_path)
 
 tf_client.apply(tf_path, var1=value1, var2=value2, ...)
 
+tf_client.output(tf_path, out_type = "json")
+
 tf_client.destroy(tf_path, var1=value1, var2=value2, ...)
 
 ```
