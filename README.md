@@ -6,8 +6,8 @@ Python wrapper for Terraform
 Initialise the terraformpy module. "tf_path" variable
 
 ```
-import terraformpy
-tf_client = TerraformPy()
+import terraformpy from terraformpy
+tf_client = terraformpy.TerraformPy()
 ```
 
 Below method is used for Terraform init action
