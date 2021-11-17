@@ -29,5 +29,4 @@ tf_client.output(out_type = "json")
 Use the below method for Terraform Destroy with any number of variables.
 ```
 tf_client.destroy(var1=value1, var2=value2, ...)
-
 ```
